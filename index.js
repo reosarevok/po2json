@@ -1,5 +1,3 @@
-module.exports = {
-  parse: require('./lib/parse'),
-  parseFile: require('./lib/parseFile'),
-  parseFileSync: require('./lib/parseFileSync')
-};
+export {default as parse} from './lib/parse.js';
+export {default as parseFile} from './lib/parseFile.js';
+export {default as parseFileSync} from './lib/parseFileSync.js';
